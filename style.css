@@ -1,0 +1,36 @@
+h1 {
+    background-color: #ffffff;
+    color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flash {
+    width: 50%;
+    height: 30%;
+    min-width: 30%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    width: 30px;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#displayWord {
+    font-size: xx-large;
+}
